@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Concorso assistente informatico</title>
+</head>
+<style>
+    * {
+        font-family: Georgia, Times, Times New Roman, serif;
+    }
+
+    li {
+        margin-bottom: 40px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+    }
+
+    li:last-child {
+        margin-bottom: 0px;
+    }
+
+    ul {
+        padding: 1px;
+        padding-left: 40px;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .link {
+        border: 2px solid black;
+    }
+
+    .contenitore_scritto {
+        border: 2px solid darkslateblue;
+    }
+
+    .contenitore_orale {
+        border: 2px solid darkgoldenrod;
+    }
+
+    .container_flex {
+        display: flex;
+        flex-direction: rows;
+        flex-wrap: wrap;
+    }
+
+    .imgbox {
+        text-align: center;
+    }
+
+    .countdown {
+        font-family: arial;
+        text-transform: uppercase;
+    }
+
+    .countdown>div {
+        display: inline-block;
+    }
+
+    .countdown>div>span {
+        display: block;
+        text-align: center;
+    }
+
+    .countdown-container {
+        margin: 0 3px;
+    }
+
+    .countdown-container .countdown-heading {
+        font-size: 11px;
+        margin: 3px;
+        color: pink
+    }
+
+    .countdown-container .countdown-value {
+        font-size: 50px;
+        background: darkslateblue;
+        padding: 10px;
+        color: pink;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
+    }
+
+    .checkmark{
+        color:green; 
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+        font-size: large;
+    }
+</style>
+
+<body>
+
+    <h1>Concorso assistente informatico</h1>
+    
+    <h2>Argomenti da sapere per parte scritta</h2>
+    <div class="imgbox">
+        <img src="img/TgSticker_0408c06d.png" width="128" alt="">
+        <img src="img/Animated_Capoo-128px-30.gif" width="128" alt="">
+    </div>
+
+
+    <div class="contenitore_scritto">
+        <ul>Normativa, linee guida, regole tecniche di riferimento relativamente a:
+            <li><a href="https://drive.google.com/file/d/1pitV8Hl7t_nAw4MIzqHHmayD1zDavnMf/view?usp=share_link">Codice
+                    dell'amministrazione digitale,</a><br><a
+                    href="https://drive.google.com/file/d/1tB65t3t-s_lLbx3-hXAyFAYiy9UPBuWO/view?usp=share_link"> Piano
+                    triennale per l'informatica nella PA,
+                </a>84 pagine<br><a
+                    href="https://drive.google.com/file/d/1MqHaswJky7WVtCbhE9hXm03oHaEeoGpS/view?usp=share_link">Agenda
+                    digitale nazionale e Provinciale</a>148 pagine
+            </li>
+            <li><a href="Strategia.html">strategia europea in materia di trasformazione digitale e iniziative specifiche di
+                    innovazione in materia di Cloud e di Dati;</a></li>
+                    <div class="checkmark">&#10004;</div><li><a href="">sistemi informativi: tipologie, segmentazione di mercato e progettazione di base;</a>
+            <ul>
+                <li><a href="https://vitolavecchia.altervista.org/le-tipologie-sistemi-informativi-aziendali/">Tipologie</a></li>
+                <li><a href="https://drive.google.com/file/d/175KcZnnuJlS-ZT0rfJHHyQuDoISxzgx0/view?usp=share_link">Segmentazione</a></li>
+                <li><a href="https://drive.google.com/file/d/175KcZnnuJlS-ZT0rfJHHyQuDoISxzgx0/view?usp=share_link">Progettazione</a></li>
+
+            </ul></li>
+            <li><a href="https://asana.com/it/resources/project-management-methodologies">metodologie di project management in ambito ICT, con particolare riferimento alle tecniche di analisi e reingegnerizzazione dei processi ed ai metodi di project management predittivo (PMP, PM2) AGILE Scrum;</a>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1Dyn3gnPSyyF1ByBEeigs2DUvL-OSdG0C/view?usp=share_link">PM²</a></li>
+                <li><a href="https://drive.google.com/file/d/1miIokHmP8K6oDK2Cy7E5GIzzRKBpCX28/view?usp=share_link">PMP</a></li>
+                <li><a href="https://drive.google.com/file/d/16vhAsD5RXVxWxWfyYgxugeGZYi9k8tAB/view?usp=share_link">Scrum, Agile, PM</a></li>
+                <li><a href="">text</a></li>
+                <li><a href="">text</a></li>
+                <li><a href="">text</a></li>
+            </ul>
+            
+            </li>
+            <li><a href="https://twproject.com/blog/it/requisiti-di-progetto-come-raccoglierli-ed-analizzarli/">metodi, strumenti, prassi per la raccolta dei requisiti di analisi e sviluppo per progetti di digitalizzazione;</a>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+            </li>
+            <li><a href="https://www.bigdata4innovation.it/big-data/analisi-dei-dati-tecniche-e-metodologie-per-la-sua-applicazione/">strumenti di analisi dei dati, approccio alla creazione di datawarehouse e di analytics;</a>
+            <ul>
+                <li><a href="https://www.digital-coach.com/it/blog/case-histories/data-analytics/">data-analytics</a></li>
+                <li></li>
+                <li></li>
+            </ul>
+            
+            </li>
+            <li><a href="">elementi tecnici e di erogazione del servizio delle suite di produttività individuale (Open Office, Google Workspace, Microsoft Office);</a></li>
+            <li><a href="">elementi tecnici di base per l'utilizzo dei tool di analisi dei dati e di reportistica;</a>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+            </li>
+
+
+
+
+
+        </ul>
+    </div>
+    <div class="imgbox">
+        <img src="img/Animated_Capoo-128px-17.gif" width="128" alt="">
+    </div>
+    <h3>Link utili</h3>
+
+    <div class="link">
+        <ul>
+            <li><a href="https://drive.google.com/file/d/1w2oE6MkU0f3HtJ1xtgPX0Za7i5fYC13o/view?usp=share_link">Bando
+                    concorso</a></li>
+            <li><a href="http://www.concorsi.provincia.tn.it/concorsi_indeterminato/-in_atto_area_non_dirigenziale/pagina483.html">Pagina concorso</a></li>
+            <li><a href="https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2020-2022/executive_summary.html">piano-triennale-ict</a></li>
+            <li><a href="">testo</a></li>
+            <li><a href="">testo</a></li>
+            <li><a href="">testo</a></li>
+            <li><a href="">testo</a></li>
+            <li><a href="">testo</a></li>
+        </ul>
+    </div>
+
+    <div class="imgbox">
+        <img src="img/YourCapoo-128px-45.gif" width="128" alt="">
+    </div>
+
+
+
+    <h2>Argomenti da sapere per parte orale</h2>
+    <div class="contenitore_orale">
+        <ul>
+            <li>nozioni sul vigente "Piano per la prevenzione della corruzione e per la trasparenza della Provincia autonoma di Trento”;</li>
+            <div class="checkmark">&#10004;</div><li>codice di comportamento dei dipendenti della Provincia autonoma di Trento (delibera n. 1217 di data 18 luglio 2014) e doveri dei pubblici dipendenti (Contratto Collettivo Provinciale di Lavoro,
+                sottoscritto in data 1 ottobre 2018);</li>
+            <li>elementi di conoscenza dell'ordinamento statutario della Provincia autonoma di Trento (comprensivo di quanto previsto dalla L.P. n. 2 del 5 marzo 2003 e dalla L.P. n. 3 del 5 marzo 2003);</li>
+            <li>nozioni sull'attività amministrativa della Provincia autonoma di Trento (L.p. 30 novembre 1992, n.23) e contrattuale della Provincia autonoma di Trento (L.p. 19 luglio 1990, n. 23).</li>
+            <li></li>
+        </ul>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+<script>
+    
+</script>
+
+
+
+
+
+</body>
+
+
+<footer>
+    <p>liceeee ❤️</p>
+</footer>
+
+</html>
